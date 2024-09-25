@@ -4,4 +4,4 @@ nome = str(input('digite seu nome completo: ')).title().strip()
 
 separado = nome.split()
 
-print('seu  primeiro nome é {} e seu ultimo nome é {}.'.format(separado[0] , separado[2]))
+print('seu  primeiro nome é {} e seu ultimo nome é {}.'.format(separado[0] , separado[len(separado) - 1]))
